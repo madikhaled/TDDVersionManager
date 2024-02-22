@@ -20,7 +20,7 @@ public class VersionManager {
     public void updatePatch() {
         this.version = 1;
     }
-    public void reset() {
+    public void test() {
         this.version = -1;
     }
 }
