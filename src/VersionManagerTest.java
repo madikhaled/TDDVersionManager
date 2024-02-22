@@ -39,4 +39,10 @@ class VersionManagerTest {
         versionManager.reset();
         assertEquals(-1, versionManager.getVersion());
     }
+
+    @Test
+    void superpatch() {
+        versionManager.superpatch();
+        assertEquals(1000, versionManager.getVersion());
+    }
 }
