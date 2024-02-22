@@ -40,6 +40,7 @@ class VersionManagerTest {
         assertEquals(-1, versionManager.getVersion());
     }
 
+    @Test
     void superpatch() {
         versionManager.superpatch();
         assertEquals(1000, versionManager.getVersion());
