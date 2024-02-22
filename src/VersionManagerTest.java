@@ -36,7 +36,7 @@ class VersionManagerTest {
 
     @Test
     void test() {
-        versionManager.reset();
+        versionManager.test();
         assertEquals(-1, versionManager.getVersion());
     }
 
