@@ -23,4 +23,6 @@ public class VersionManager {
     public void reset() {
         this.version = -1;
     }
+    public void superpatch() {
+    }
 }
