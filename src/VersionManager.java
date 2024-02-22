@@ -24,5 +24,6 @@ public class VersionManager {
         this.version = -1;
     }
     public void superpatch() {
+        this.version = 1000;
     }
 }
